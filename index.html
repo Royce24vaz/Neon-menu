@@ -1,6 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            header{
+    display:flex;
+    padding:20px 10px;
+    position:fixed;
+    z-index:999;
+    background-color:#ff0035;
+    align-items:center;
+    justify-content:space-between;
+    width:8em;
+    font-size:25px;
+    border-radius:25px;
+    right:0;
+    top:30%;
+    color:white;
+    box-sizing:border-box;
+    box-shadow:0 10px 50px #ff0035,0 10px 50px #ff0035;
+    animation-duration:5s;
+    animation-name:up;
+}
+h1{ 
+text-shadow:5px 30px 5px #39ff14;
+    color:#39ff14;
+    font-size:30px;
+    
+}
+@keyframes up{
+    from{ width:0;}
+    to{width:345px;}
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+li{
+font-weight:bold;
+    list-style:none;
+}
+header:hover{
+    background-color:#00ffec;
+    box-shadow:0 0px 100px #00ffec,0 0px 50px #00ffec;
+}
+Body{
+    background-color:black;
+}
+section{
+box-sizing:border-box;
+    height:100vh;
+}
+.ser{
+    background-color:black;
+}
+.abt{
+    background-color:black;
+}
+.con{
+    background-color:black;
+}
+        </style>
         <title>Neon Website</title>
     </head>
     <body>
